@@ -1,3 +1,6 @@
+Create your own react app with "npx create-react-app" you-app -> download the entire website form here -> navigate to the "src" folder in the files that you just downloaded
+-> copy the entire "src" folder from the downloaded website to your own app (replace your "src" folder with the one that you just downloaded) -> do the same thing with the images folder in the /public file
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
