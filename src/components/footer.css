@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: block;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0 5px 0;
+  background: black;
+  height: 100px;
+  width: 100%;
+  min-height: 100px;
+  min-width: 300px;
+}
+
+.footer_div ul{
+  padding-right: 500px;
+}
+
+.footer_div img{
+  margin: 0;
+  padding: 20px 0 0 0;
+  height: 60px;
+  /* float: left; */
+}

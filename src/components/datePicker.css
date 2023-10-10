@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form{
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+}
+
+.mainDiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100px;
+  min-height: 100px;
+
+  max-height: 100px;
+  max-height: 100px;
+}
+
+.div_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: beige;
+  height: 150px;
+  width: 600px;
+}
+
+
+/* below div needs to addd spaces between datepickers */
+.div_datePicker{
+  display: block;
+  background-color: blue;
+  width: 400px;
+  height: 100px;
+  padding: 10px 5px 10px 5px;
+}
+
+.datePicker_departure{
+  padding: 10px ;
+  
+}
+
+.datePicker_arrival {
+  padding: 10px;
+}
+
+.label_arrival {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  color: #f55a00;
+  margin: 0 0 0.5vh 0;
+}
+
+.label_departure {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  color: #f55a00;
+  margin: 0 0 0.5vh 0;
+}
+
+.input {
+  font-size: 20px;
+  margin: 40px;
+  
+}

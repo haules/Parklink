@@ -1,0 +1,39 @@
+.backgroundImage_div {
+    align-items: center;
+    min-width: 500px;
+    background-repeat: no-repeat;
+    /* background-image: url("/public/images/bannerImage.jpg"); */
+    background-image: linear-gradient(to bottom, transparent, #4b99bb),
+    url("/public/images/bannerImage.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 5px;
+    /* height: 800px; */
+
+}
+.testing{
+    padding: 100px 0 100px 0;
+}
+.title_div{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.title_div h1{
+    text-decoration: underline;
+}
+
+.title_div p{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div_form{
+    width: 700px;
+    height: 800px;
+    background-color: grey;
+    margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+.mainDiv_email {
+    padding: 1px;
+}
+
+.mainDiv_email form{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.mainDiv_email input[type=email]{
+    width: 100%;
+    padding: 12px 0 10px 0;
+    margin: 8px 0 8px 0;
+    box-sizing: border-box;
+    border: 2px solid#555;
+}
+
+.mainDiv_email button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+.paymentPage_div {
+    background-color: rgb(203, 195, 195);
+    margin-top: 2px;
+    min-height: 500px;
+    min-width: 500px;
+}
+
+.howToBook {
+    align-items: center;
+    text-align: center;
+}
+
+.howToBook h1 {
+    padding-top:50px;
+}
+
+.howToBook_containers {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.cards_div{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5)
+}
+
+.awesome_icons {
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+}
+
+.paragraphs_text{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.boldApp {
+    font-weight: bold;
+}
+
+.mobileApps {
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+}
+
+.twoPhones {
+    background-color: black;
+    text-align: center;
+
+}
+
+.twoPhones img {
+    width: 800px;
+    height: 500px;
+    text-align: center;
+}
+
+.downloadApps {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding-top: 80px;
+}
+
+.downloadApps h3 {
+    font-size: 30px;
+}
+
+.twoApps {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.twoApps img {
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    padding-top: 200px;
+}
+
+.second_div {
+    border: solid black;
+    /* margin-bottom: 50px; */
+    padding-top: 70px;
+    background-color: rgb(36, 36, 255);
+    color: white;
+}
+
+.four_images {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    padding-top: 100px;
+    /* margin: 0 auto; */
+    padding-left: 80px;
+    gap: 30px;
+    /* padding-bottom: 50px; */
+}

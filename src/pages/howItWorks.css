@@ -1,0 +1,342 @@
+.howItWorks_mainDiv {
+  align-items: center;
+  /* height: 200px;  */
+  margin-top: 2px;
+  min-width: 500px;
+  background-color: rgb(49, 45, 45);
+  padding: 50px 30px 30px 30px;
+  color: white;
+
+}
+
+
+.div_background_image {
+
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, transparent, #4b99bb),
+    url("/public/images/bannerImage.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 3px;
+  height: 800px;
+}
+
+
+.div_heading h1 {
+  text-align: center;
+  position: flex;
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+  margin-top: 200px;
+  font-family: Arial, sans-serif;
+  min-width: 20px;
+  /* top: 0;
+  position: fixed; */
+}
+
+.div_heading h2 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*How does it work section below*/
+
+.hit_title {
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.hit_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px; /*adds space btween divs in column*/
+  height: 200px;
+}
+
+/* --------------------------------------------------------------------- */
+
+.div_one {
+  display: flex;
+  align-items: center;
+}
+.dot_icon_one {
+  font-size: 30px;
+}
+.div_one_titles i {
+  display: flex;
+  justify-content: center;
+}
+
+/* .div_one_titles {
+  margin: 0;
+  padding: 0;
+} */
+.div_one_titles h4 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.div_one_titles p {
+  font-size: 15px;
+  margin-left: 5px;
+  color: rgb(92, 92, 243);
+  text-decoration: underline black;
+}
+
+.one {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/* --------------------------------------------------------------------- */
+
+.div_two {
+  display: flex;
+  align-items: center;
+}
+.dot_icon_two {
+  font-size: 30px;
+}
+.div_two_titles i {
+  display: flex;
+  justify-content: center;
+}
+
+/* .div_two_titles {
+  margin: 0;
+  padding: 0;
+} */
+.div_two_titles h4 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.div_two_titles p {
+  font-size: 15px;
+  margin-left: 5px;
+  color: rgb(92, 92, 243);
+  text-decoration: underline black;
+}
+
+.two {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/* --------------------------------------------------------------------- */
+.div_three {
+  display: flex;
+  align-items: center;
+}
+
+.dot_icon_three {
+  font-size: 30px;
+}
+.div_three_titles i {
+  display: flex;
+  justify-content: center;
+}
+
+/* .div_three_titles {
+  margin: 0;
+  padding: 0;
+} */
+.div_three_titles h4 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.div_three_titles p {
+  font-size: 15px;
+  margin-left: 5px;
+  color: rgb(92, 92, 243);
+  text-decoration: underline black;
+}
+
+.three {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/* -------------------next section -------------------------- */
+
+.hit_whyBook {
+  display: flex;
+  background-color: rgb(236, 232, 232);
+  margin-top: 5px;
+  padding: 60px;
+  min-width: 300px;
+  min-height: 500px;
+  width: 80%;
+  margin-left: 120px;
+  justify-content: center;
+  gap: 150px;
+}
+
+.hit_whyBook h1 {
+  font-size: 30px;
+  font-weight: bold;
+  /* margin-left: 350px; */
+}
+
+.image_div {
+  display: flex;
+  align-items: center;
+  background-color: rgb(78, 67, 222);
+  width: 450px;
+  height: 450px;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.image_div img {
+  margin-top: 100px;
+  height: 300px;
+  width: 500px;
+  transform: rotate(-13deg);
+  min-width: 300px;
+  min-height: 200px;
+}
+
+.info_div {
+  width: 500px;
+  justify-content: center;
+}
+.containre {
+  margin-top: 70px;
+  /* background-color: green; */
+  width: fit-content;
+  border-left: 3px solid rgb(103, 103, 202);
+
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.info_div h1 {
+  text-align: center;
+}
+
+.info_div h3 {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.info_div p {
+  margin-left: 30px;
+}
+
+hr {
+  border: 1px solid rgb(103, 103, 202);
+}
+
+
+.questions_container {
+  padding: 5px 0 30px 0;
+  min-width: 300px;
+  min-height: 200px;
+  margin-top: 5px;
+  overflow: auto;
+}
+
+.mid_container {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+.mid_container h1 {
+  font-size: 40px;
+}
+
+.questions {
+  width: 700px;
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.Collapsible {
+  background-color: rgb(234, 234, 234);
+  color: black;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.active,
+.Collapsible:hover {
+  background-color: #a4a2a2;
+}
+
+.Collapsible:after {
+  /* content: "\002B"; */
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+
+.Collapsible p {
+  padding: 0 18px;
+  max-height: 0;
+ /* overflow: hidden;  */
+ transition: max-height 0.2s ease-out; 
+ background-color: #f1f1f1; 
+}
+
+/* ------------------newsletter--------------------------- */
+.newsletter_container{
+  height: 300px;
+  background: linear-gradient(to right, lightblue , blue);
+  
+}
+
+.newsletter_heading{
+  padding: 10px 0 2px 0;
+
+  text-decoration: none;
+  
+}
+.newsletter_heading{
+  text-align: center;
+}
+
+.newsletter_container p{
+ text-align: center;
+  
+}
+

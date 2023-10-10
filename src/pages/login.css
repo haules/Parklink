@@ -1,0 +1,50 @@
+.loginMainDiv {
+    align-items: center;
+    min-width: 500px;
+    background-repeat: no-repeat;
+    background-image: url("/public/images/bannerImage.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 5px;
+    height: 75vh;
+
+}
+ 
+.title {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    background-color:wheat;
+    padding: 20px 10px;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 200px;
+}
+ 
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    padding: 30px 10px;
+    gap: 10px;
+    background-color: rgb(186, 186, 186);
+}
+ 
+.loginInput {
+    border: 1px solid rgb(172, 171, 171);
+    outline: none;
+    height: 40px;
+    margin: 5px;
+    
+}
+
+.buttonInput{
+    margin: 0 auto;
+    background-color: rgb(122, 122, 251);
+    height: 40px;
+    width: 29vw;
+    color: white;
+}
